@@ -13,9 +13,6 @@ myMarked.setOptions({
 })
 
 class Preview extends Component {
-    constructor(props) {
-        super(props);
-    }
 
 getText() {
     let rawMarkup = myMarked(this.props.data)

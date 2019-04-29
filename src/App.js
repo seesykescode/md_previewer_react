@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Preview from './components/Preview'
 
@@ -15,12 +15,14 @@ ____
 ### Emphasis and Italics
 You want to make a bold statement? Use double asterisks surrounding your text.
 **Like this** 
+
 Need to italicize your text Juse use single astericks surronding your text.
 *Like this*
 ____
 ### Code in Markdown
-Standalone elements can be typed with a a pair of backticks
-\`<h2>See, no formatting on me\`
+Standalone elements can be typed with a a pair of backticks (\`\`) surrounding your code
+\`<h2> isn't rendering and that's good<h2>\`
+
 Here's a code block, I'm working on getting syntax highlighting working.
 \`\`\`\ javascript
 function fancyAlert(arg) {
@@ -36,6 +38,7 @@ Here's how you create a list in markdown
 1. Thing
 2. Thing 2
 3. Thing 3.
+
 #### Unordered list
 * Thing
 * Another Thing
