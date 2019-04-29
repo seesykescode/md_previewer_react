@@ -2,7 +2,9 @@
   "name": "md_preview_react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "mdpreviewer.seesykes.codes",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "highlight.js": "^9.15.6",
     "marked": "^0.6.2",
     "react": "^16.8.6",
@@ -10,6 +12,8 @@
     "react-scripts": "3.0.0"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh -pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
