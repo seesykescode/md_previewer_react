@@ -31,7 +31,7 @@ componentDidMount() {
     
     render() {
         return (
-        <div className="">
+        <div className="Preview">
             <h1>Preview</h1>
             <div id="preview" dangerouslySetInnerHTML={this.getText()}/>
         </div>
