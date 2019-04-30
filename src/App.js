@@ -15,7 +15,7 @@ ____
 You want to make a bold statement? Use double asterisks surrounding your text.
 **Like this** 
 
-Need to italicize your text Juse use single astericks surronding your text.
+Need to italicize your text? Just use single astericks surrounding your text.
 *Like this*
 ____
 ### Code in Markdown
