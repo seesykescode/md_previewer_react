@@ -19,15 +19,6 @@ getText() {
     return {__html: rawMarkup}
 }
 
-componentDidMount() {
-    let fccScript = document.createElement("script");
-    fccScript.setAttribute(
-      "src",
-      "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
-    );
-    document.head.appendChild(fccScript);
-}
-
     
     render() {
         return (
