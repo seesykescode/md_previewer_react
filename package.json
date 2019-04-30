@@ -2,7 +2,7 @@
   "name": "md_preview_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mdpreviewer.seesykes.codes",
+  "homepage": "http://mdpreview.seesykes.codes",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "highlight.js": "^9.15.6",
