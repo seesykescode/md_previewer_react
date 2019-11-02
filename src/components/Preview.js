@@ -22,9 +22,7 @@ getText() {
     
     render() {
         return (
-        <div className="Preview">
             <div id="preview" dangerouslySetInnerHTML={this.getText()}/>
-        </div>
         ) 
     }
 }
