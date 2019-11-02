@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "http://mdpreview.seesykes.codes",
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "highlight.js": "^9.15.6",
-    "marked": "^0.6.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "gh-pages": "^2.1.1",
+    "highlight.js": "^9.16.2",
+    "marked": "^0.6.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-scripts": "3.0.0"
   },
   "scripts": {
